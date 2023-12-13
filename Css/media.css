@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .quotes .container .quotes-heading {
+    padding: 60px;
+  }
+  .quotes .container .quotes-heading h1 {
+    font-size: 70px;
+  }
+
+  .quotes .container .quotes-heading p {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .quotes .container .quotes-heading {
+    padding: 20px;
+  }
+
+  .quotes .container .quotes-heading p {
+    font-size: 20px;
+  }
+}

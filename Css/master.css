@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.quotes {
+  background-image: url(../imgs/360_F_279342048_F5NFddwEW19MJsVev4UvjmUne5JgSPqY.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.quotes .container .quotes-heading {
+  box-shadow: 0 0 17px black;
+  border-radius: 14px;
+}
+
+.quotes .container .quotes-heading h1 {
+  font-family: "Whisper", cursive;
+  width: fit-content;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 0.3125rem;
+  background-color: #0000004a;
+  box-shadow: 0 0 0.625rem #2196f3;
+}
+
+.quotes .container .quotes-heading button,
+.quotes .container .quotes-heading p {
+  font-family: "Pacifico", cursive;
+}
+
+.quotes .container .quotes-heading p {
+  color: white;
+  font-size: 40px;
+}
+
+.quotes .container .quotes-heading .btn-primary {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.quotes .container .quotes-heading .btn-primary:hover {
+  background-color: transparent;
+}
+
+.quotes .container .quotes-heading .btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.quotes .container .quotes-heading .quotes-result {
+  font-family: "Rubik", sans-serif;
+  border-radius: inherit;
+  padding: 10px;
+}
+
+.quotes .container .quotes-heading .quotes-result .owner-quote {
+  color: #033359 !important;
+}
